@@ -1,0 +1,173 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, a, abbr, acronym,      address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,        caption, tbody, tfoot, thead, tr, th, td, textarea, input, select {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+table {border-collapse: collapse; border-spacing: 0;}
+caption, th, td {text-align: left; font-weight: normal;}
+table, td, th {vertical-align: middle;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a img {border: none;}
+:focus {outline: 0;}
+
+/* standard elements */
+a {
+    color: #567;
+}
+a:hover {
+    color: #28e;
+}
+body {
+    background: #F2F2F2 repeat-y center top;
+    color: #555A60;
+    font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+    margin: 0;
+}
+p,cite,code,ul {
+    text-align: justify;
+    font-size: 1.2em;
+    padding-bottom: 1.2em;
+}
+h1 {
+    font-size: 1.4em;
+    margin-bottom: 4px;
+}
+li {
+    list-style: square;
+    margin-left: 32px;
+}
+cite {
+    background:  no-repeat;
+    color: #456;
+    display: block;
+    font: normal 1.4em "Lucida Sans Unicode",serif;
+    padding-left: 28px;
+}
+tr {text-align: right}
+th {
+    text-align: left
+}
+td {
+    width: 100%
+}
+hr {
+  border: 1px;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#b5b5a0;
+  height: 1px;
+}
+
+h2,h3 {
+    color: #579;
+    padding-top: 6px;
+}
+
+h1 {
+    font-size:1.8em;
+    color: #579;
+    padding-top: 6px;
+}
+
+div .note {
+    font-size:.8em;
+}
+
+table,td {
+    border: 1px ;
+    border-collapse: collapse;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-size:1.1em;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+th {
+    vertical-align: top ;
+    font-weight:bold ;
+    border: 1px ;
+    border-collapse: collapse;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+/* floats */
+.left,.alignleft {float: left;}
+.right,.alignright {float: right;}
+
+.clear,.clearer {clear: both;}
+.clearer {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+/* structure */
+.container {
+    background-color: #00000009;
+    margin: 0 auto;
+    margin-top: 6px;
+    width: 600px;
+}
+
+/* title */
+.title {
+    float: left;
+    margin-top: 22px;
+    text-align: center;
+    width: 220px;
+}
+.title h1 {
+    font: normal 2em Verdana,sans-serif;
+}
+.title h2 {
+    color: #999;
+    font: normal 1.1em Verdana,sans-serif;
+}
+
+/* navigation */
+.navigation {
+    background:  no-repeat;
+    height: 100px;
+    padding: 0 16px;
+}
+.navigation a {
+    border-left: 0px solid #DDD;
+    border-right: 1px solid #DDD;
+    color: #89A;
+    float: right;
+    font: bold 1.2em "Trebuchet MS",sans-serif;
+    margin-top: 9px;
+    padding: 55px 18px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation a:hover {
+    background: #ffffff33 repeat-x;
+    color: #28e;
+    padding: 56px 18px 10px;
+}
+
+/* holders */
+.holder {
+    background:  repeat-y;
+    padding: 0 32px;
+}
+.holder_top,.footer {
+    clear: both;
+    background:  no-repeat;
+    height: 40px;
+}
+
+/* footer */
+.footer {
+    background-position: left bottom;
+    color: #999;
+    font-size: 1.1em;
+    text-align: center;
+    padding-left:12px;
+    padding-right:12px;
+}
+.footer .left{
+}
+.footer .right{
+}
