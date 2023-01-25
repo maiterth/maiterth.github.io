@@ -157,6 +157,11 @@ th {
     background:  no-repeat;
     height: 40px;
 }
+.holder_pad {
+    clear: both;
+    background:  no-repeat;
+    height: 20px;
+}
 
 /* footer */
 .footer {
